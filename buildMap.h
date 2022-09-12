@@ -1,0 +1,12 @@
+server.serveStatic("/static/css/main.e5d68557.css", SPIFFS, "/b/f0.css", "max-age=31536000, public");
+server.serveStatic("/static/js/787.15780713.chunk.js", SPIFFS, "/b/f1.js", "max-age=31536000, public");
+server.serveStatic("/static/js/main.b0e5aa9f.js", SPIFFS, "/b/f2.js", "max-age=31536000, public");
+server.serveStatic("/static/js/main.b0e5aa9f.js.LICENSE.txt", SPIFFS, "/b/f3.txt", "max-age=31536000, public");
+server.serveStatic("/asset-manifest.json", SPIFFS, "/b/f4.json", "");
+server.serveStatic("/favicon.ico", SPIFFS, "/b/f5.ico", "");
+server.serveStatic("/index.html", SPIFFS, "/b/index.html", "");
+server.serveStatic("/logo192.png", SPIFFS, "/b/f7.png", "");
+server.serveStatic("/logo512.png", SPIFFS, "/b/f8.png", "");
+server.serveStatic("/manifest.json", SPIFFS, "/b/f9.json", "");
+server.serveStatic("/robots.txt", SPIFFS, "/b/f10.txt", "");
+server.serveStatic("/", SPIFFS, "/b/index.html");
